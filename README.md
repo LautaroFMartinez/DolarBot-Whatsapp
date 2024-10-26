@@ -3,6 +3,9 @@ Convierte tanto audio como texto a ARS tomando en cuenta el valor de dolar tarje
 
 Este proyecto es un bot de WhatsApp construido en Flask que permite a los usuarios enviar mensajes o archivos de audio para convertir dólares estadounidenses (USD) a pesos argentinos (ARS) utilizando la API de Together AI y la biblioteca Whisper de OpenAI para transcribir el audio. También utiliza la API de Twilio para gestionar la comunicación por WhatsApp.
 
+**Usa dolar Tarjeta para hacer la conversion, en cualquier caso se puede cambiar desde la variable dolartarjetaApi**
+https://dolarapi.com/docs/argentina/
+
 ## Requerimientos
 - Python 3.8 o superior
 - Paquetes especificados en requirements.txt
