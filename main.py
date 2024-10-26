@@ -15,10 +15,10 @@ print(togetherApiKey)
 TWILIO_ACCOUNT_SID = os.environ.get('TWILIO_ACCOUNT_SID')  #Twilio auth para descargar el audio
 TWILIO_AUTH_TOKEN = os.environ.get('TWILIO_AUTH_TOKEN')    
 
-dolartarjetaApi = 'https://dolarapi.com/v1/dolares/tarjeta'
+dolarApi = 'https://dolarapi.com/v1/dolares/tarjeta'
 
 def dolarTarjeta(monto_usd):
-    dolarRequest = requests.get(dolartarjetaApi)
+    dolarRequest = requests.get(dolarApi)
     dolarData = dolarRequest.json()
     dolar = dolarData['venta']
     return dolar * monto_usd
