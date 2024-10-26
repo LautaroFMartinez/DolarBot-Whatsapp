@@ -35,7 +35,7 @@ Variables de Entorno: togetherApiKey, TWILIO_ACCOUNT_SID, y TWILIO_AUTH_TOKEN
 ## Ejecución
 Para ejecutar el proyecto en modo local:
 
-python app.py
+python dolarawsp.py
 El servidor estará en funcionamiento en http://127.0.0.1:5000 y podrás probar el bot en la plataforma configurada en Twilio.
 
 *Para poder probarlo recomiendo usar ngrok*
