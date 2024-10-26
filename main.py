@@ -11,7 +11,6 @@ from requests.auth import HTTPBasicAuth
 app = Flask(__name__)
 
 togetherApiKey=os.environ.get('togetherApiKey')
-print(togetherApiKey)
 TWILIO_ACCOUNT_SID = os.environ.get('TWILIO_ACCOUNT_SID')  #Twilio auth para descargar el audio
 TWILIO_AUTH_TOKEN = os.environ.get('TWILIO_AUTH_TOKEN')    
 
