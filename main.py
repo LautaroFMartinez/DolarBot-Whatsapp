@@ -1,11 +1,7 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
-import requests
-import together
-import os
+import requests, together, os, whisper, logging
 import urllib.request
-import whisper
-import logging
 from requests.auth import HTTPBasicAuth
 
 app = Flask(__name__)
